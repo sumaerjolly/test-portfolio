@@ -13,3 +13,42 @@ html {
   font-family: 'Barlow Semi Condensed', sans-serif;
   height: 100vh;
 }
+
+.primary-btn {
+  background: $color1;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: $color3;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ghost-btn {
+  border: 4px solid $color1;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: $color1;
+  padding: 12px 27px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  font-size: 2rem;
+  color: $color1;
+  position: fixed;
+  right: 36px;
+  top: 36px;
+  padding: 20px;
+}
