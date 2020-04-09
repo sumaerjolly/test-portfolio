@@ -122,10 +122,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.home .logo {
-  background: white;
-  height: 100px;
-  width: 200px; }
+.home .logo img {
+  max-height: 1500px;
+  max-width: 150px; }
 
 .home .info-section {
   padding: 56px;

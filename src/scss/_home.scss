@@ -1,8 +1,9 @@
 .home {
   .logo {
-    background: white;
-    height: 100px;
-    width: 200px;
+    img {
+      max-height: 1500px;
+      max-width: 150px;
+    }
   }
 
   .info-section {
