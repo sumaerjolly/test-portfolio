@@ -1,1 +1,1 @@
-{"version":3,"sources":["scss/main.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI,GACjB","file":"js.00a46daa.css","sourceRoot":"../src","sourcesContent":["body {\n  background: blue;\n}\n"]}
+{"version":3,"sources":["scss/main.scss","scss/_variables.scss"],"names":[],"mappings":"AAEA,IAAI,CAAC;EACH,UAAU,ECHH,OAAO,GDIf","file":"js.00a46daa.css","sourceRoot":"../src","sourcesContent":["@import 'variables';\n\nbody {\n  background: $color1;\n}\n","$color1: #4b21ff;\n$color2: #272727;\n$color3: #fefefe;\n$color4: #a9a9a9;\n$color5: #bdbdbd;\n"]}
