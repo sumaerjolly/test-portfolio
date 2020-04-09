@@ -145,6 +145,11 @@ table {
       font-weight: 300;
       color: #fefefe;
       margin: 0.2em 0 0.8em; }
+  .home .info-section .icon-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding-right: 1rem; }
 
 .home .content-area {
   margin-left: 35%;
