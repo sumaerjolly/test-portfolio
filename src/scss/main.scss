@@ -52,3 +52,31 @@ html {
   top: 36px;
   padding: 20px;
 }
+
+#menu {
+  background: $color1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  nav {
+    width: 400px;
+
+    a {
+      display: block;
+      text-align: center;
+      font-size: 2.3rem;
+      padding: 1rem;
+      text-decoration: none;
+      color: $color3;
+      &:hover {
+        color: $color4;
+      }
+    }
+  }
+}

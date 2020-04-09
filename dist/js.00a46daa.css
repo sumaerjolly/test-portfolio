@@ -146,7 +146,7 @@ table {
       color: #fefefe;
       margin: 0.2em 0 0.8em; }
   .home .info-section .icon-section a {
-    color: white;
+    color: #fefefe;
     text-decoration: none;
     font-size: 1.7rem;
     padding-right: 1rem; }
@@ -239,6 +239,29 @@ html {
   right: 36px;
   top: 36px;
   padding: 20px; }
+
+#menu {
+  background: #4b21ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #menu nav {
+    width: 400px; }
+    #menu nav a {
+      display: block;
+      text-align: center;
+      font-size: 2.3rem;
+      padding: 1rem;
+      text-decoration: none;
+      color: #fefefe; }
+      #menu nav a:hover {
+        color: #a9a9a9; }
 
 
 /*# sourceMappingURL=/js.00a46daa.css.map */
