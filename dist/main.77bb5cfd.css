@@ -203,7 +203,47 @@ table {
       line-height: 1.4;
       margin-bottom: 1.8rem; }
 
+.resume .info-section {
+  width: 20%; }
+
 .resume .content-area {
+  margin-left: 20%;
+  background: #fefefe;
+  width: 80%;
+  height: 100vh;
+  min-width: 300px;
+  overflow: hidden; }
+  .resume .content-area .category {
+    margin-bottom: 56px; }
+    .resume .content-area .category h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 56px; }
+    .resume .content-area .category .xp-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 56px;
+      grid-row-gap: 30px;
+      max-width: 900px; }
+      .resume .content-area .category .xp-section .xp-box {
+        padding: 30px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .resume .content-area .category .xp-section .xp-box:hover {
+          -webkit-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+          -moz-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12); }
+        .resume .content-area .category .xp-section .xp-box h5 {
+          font-weight: 500;
+          font-size: 1.3rem;
+          margin-bottom: 1.4rem; }
+        .resume .content-area .category .xp-section .xp-box p {
+          font-weight: 300;
+          font-size: 1rem;
+          margin-bottom: 1rem; }
+
+.work .content-area {
   margin-left: 20%;
   background: #fefefe;
   width: 80%;
@@ -300,6 +340,12 @@ html {
   top: 0;
   bottom: 0;
   transform: translate3d(0, 0, 0); }
+
+.scroll-section {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 56px; }
 
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
