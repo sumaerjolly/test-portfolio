@@ -150,10 +150,12 @@ table {
     text-decoration: none;
     font-size: 1.7rem;
     padding-right: 1rem; }
+    .home .info-section .icon-section a:hover, .home .info-section .icon-section a:focus {
+      color: #b4de00; }
 
 .home .content-area {
   margin-left: 35%;
-  background: white;
+  background: #fefefe;
   width: 65%;
   padding: 0 0 0 25%;
   height: 100vh; }
@@ -172,7 +174,10 @@ table {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      -webkit-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.34);
+      -moz-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.34);
+      box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.34); }
   .home .content-area .profile-section {
     display: inline-block;
     vertical-align: top;
@@ -205,6 +210,7 @@ html {
   height: 100vh; }
 
 .primary-btn {
+  text-decoration: none;
   background: #4b21ff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -216,9 +222,13 @@ html {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   cursor: pointer;
-  margin-right: 5px; }
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out; }
+  .primary-btn:hover, .primary-btn:focus {
+    background: #b4de00; }
 
 .ghost-btn {
+  text-decoration: none;
   border: 4px solid #4b21ff;
   display: inline-block;
   -webkit-border-radius: 30px;
@@ -230,7 +240,10 @@ html {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 2.5px;
+  transition: all 0.2s ease-in-out;
   cursor: pointer; }
+  .ghost-btn:hover, .ghost-btn:focus {
+    border-color: #b4de00; }
 
 .menu-icon {
   font-size: 2rem;
