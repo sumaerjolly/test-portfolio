@@ -1,44 +1,46 @@
-.logo {
-  img {
-    max-height: 150px;
-    max-width: 150px;
+@media (min-width: 992px) {
+  .logo {
+    img {
+      max-height: 150px;
+      max-width: 150px;
+    }
   }
-}
 
-.info-section {
-  padding: 56px;
-  width: 35%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  .info-box {
+  .info-section {
+    padding: 56px;
+    width: 35%;
     position: absolute;
-    bottom: 60px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    .info-box {
+      position: absolute;
+      bottom: 60px;
 
-    h4 {
-      font-size: 1.2rem;
-      color: $color3;
-      margin: 0.7em 0;
+      h4 {
+        font-size: 1.2rem;
+        color: $color3;
+        margin: 0.7em 0;
+      }
+
+      p {
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: $color3;
+        margin: 0.2em 0 0.8em;
+      }
     }
+    .icon-section {
+      a {
+        color: $color3;
+        text-decoration: none;
+        font-size: 1.7rem;
+        padding-right: 1rem;
 
-    p {
-      font-size: 0.9rem;
-      font-weight: 300;
-      color: $color3;
-      margin: 0.2em 0 0.8em;
-    }
-  }
-  .icon-section {
-    a {
-      color: $color3;
-      text-decoration: none;
-      font-size: 1.7rem;
-      padding-right: 1rem;
-
-      &:hover,
-      &:focus {
-        color: $hover;
+        &:hover,
+        &:focus {
+          color: $hover;
+        }
       }
     }
   }
