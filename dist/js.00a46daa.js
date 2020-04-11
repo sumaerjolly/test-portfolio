@@ -194,17 +194,16 @@ module.hot.accept(reloadCSS);
 
 require("../scss/main.scss");
 
-var full = document.querySelector('.home');
+var page = document.querySelector('body');
 var menu = document.querySelector('.menu-icon');
 var icon = document.querySelector('.fa');
-console.log(icon);
 menu.addEventListener('click', function () {
-  if (full.classList.contains('menu-active')) {
+  if (page.classList.contains('menu-active')) {
     icon.classList.add('fa-bars');
     icon.classList.remove('fa-times');
-    full.classList.remove('menu-active');
+    page.classList.remove('menu-active');
   } else {
-    full.classList.add('menu-active');
+    page.classList.add('menu-active');
     icon.classList.remove('fa-bars');
     icon.classList.add('fa-times');
   }
@@ -237,7 +236,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58812" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63299" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

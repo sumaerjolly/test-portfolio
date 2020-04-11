@@ -347,7 +347,8 @@ html {
   position: fixed;
   right: 36px;
   top: 36px;
-  padding: 20px; }
+  padding: 20px;
+  cursor: pointer; }
 
 #menu {
   background: #4b21ff;
